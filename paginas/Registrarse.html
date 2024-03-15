@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/Registrarse.css">
+</head>
+<script>
+    function saltarLinea(){
+		document.write("<br> <br> <br>")
+	}
+	function imprimir(frase){
+		document.write(frase)
+		saltarLinea()
+	}
+
+    var opcion = prompt("Buen dia! Por favor, introduzca su nombre");
+    
+</script>
+<body>
+    
+    <video
+        src="https://carontestudio.com/img/f4.mp4" autoplay="true" muted="true" loop="true" poster="https://carontestudio.com/img/contacto.jpg">
+    </video>
+   
+    <form action="" id="marco">
+        <section id="sect1" class="sect">
+            <h1>Registrarse</h1>
+        </section>
+        <p class="nombre"><script>imprimir("Bienvenido Sr "+opcion+". Aquí es, donde usted se podra registrar.");</script></p>
+        <section id="section2" class="section">
+            <fieldset>
+                <legend>Datos Personales</legend>
+
+                <label for="">Nombres de Usuario</label>
+                <input type="text" name="">
+                <br><br>
+
+                <label for="">Correo electronico</label>
+                <input type="text" name="">
+                <br><br>
+
+                <label for="">DNI</label>
+                <input type="number8" name="" size="8" maxlength="8">
+                <br><br>
+
+                <label for="">Contraseña</label>
+                <input type="password" name="">
+                <br><br>
+
+                <center>
+                    <input class="boton" type="Reset" value="Cancelar">
+                    <input class="boton" type="submit" value="Registrarse">
+                    
+                </center>
+
+            </fieldset>
+        </section>
+
+    </form>
+</body>
+</html>

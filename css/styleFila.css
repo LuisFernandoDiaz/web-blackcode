@@ -1,0 +1,350 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    text-align: center;
+    
+}
+
+.head {
+    display: flex;/*se pongan a los costados de los codigos*/
+    align-items: center;/*alineacion centrada*/
+    justify-content: space-between;/*separa las ventanas que se encuentran dentro*/
+    height:45px;/*el ancho*/
+    background: #1b0202;/*color del fondo de la vetana*/
+    position: fixed; /*mantener posision estatica*/
+    width: 100%; /*espacio que ocupa la ventana*/
+    z-index: 50;
+}
+
+.fila{
+    opacity: 0.85;/*transparencia*/
+    margin-left: 20px; /*espacio de la izquierda*/
+}
+
+.poly {
+    display: flex;/*se pongan a los costados de los codigos*/
+    margin-right: 10px;/*espacio de la derecha*/
+}
+.poly a {
+    display: block;
+    padding: 11px 20px;/*espacio entre ellos*/
+    color: #fff;/*color de la letra*/
+    text-decoration: none;/*quita el subrayado*/
+    text-transform: uppercase;/*MAYUSCULAS*/
+    font-size: 20px;/*tamaño de las letras*/
+}
+.poly a:hover {
+    background: #461717;
+}
+
+.header {
+    height: 55vh !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../img/fondo.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+}
+
+.title1 {
+    margin-bottom: 0px;/*espacio de la abajo*/
+    font-size: 140px;/*tamaño de las letras*/
+    text-transform: uppercase;/*mayuscula*/
+    font-family: Algerian;/*Fuentes de letras*/
+    color: #1b0202;
+}
+
+.title2 {
+    margin-bottom: 40px;/*espacio de la abajo*/
+    font-size: 45px;/*tamaño de las letras*/
+    text-transform: uppercase;/*mayuscula*/
+    font-family: Algerian;/*Fuentes de letras*/
+    color: #1b0202;
+}
+
+p {
+    font-family: Georgia;
+    margin-bottom: 40px;/*espacio de la abajo*/
+    font-size: 20px;
+    color: #fff;
+    padding: 0 100px; /*tamaño del fondo*/
+}
+
+.wiki{
+    font-size: 15px;
+    font-family: Georgia;
+    margin-top: 15px;
+    padding: 8px 30px;
+    border: 2px solid #690202;
+    color: #fff;
+    text-decoration: none;
+    background: #690202;   
+}
+
+.wiki:hover {/*hace que el backgroun parpade*/
+    background: none;
+    
+}
+
+.btn-home {
+    display: flex;
+}
+
+.btn-home a {
+    margin: 0 10px;
+}
+
+.sd {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.sau {
+    height: 60vh !important;
+    background: url(../img/fondo1.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+}
+
+.box-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+
+}
+
+span {
+    margin-top: 2vh;
+    text-align: center;
+    color: #a11a1a;
+    font-size: 1vh;
+}
+
+h3 {
+    font-family: Calibri ;
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #171717;
+    -webkit-text-stroke: 1px black;
+    color: #fff; 
+    margin-top: 4vh;
+}
+
+.box-container a {
+    text-transform: uppercase;/*Mayusculas*/
+    font-size: 13px;/*tamaño de las letras*/
+    margin: 0px 25px 0px 30px;/*posicion del codigo*/
+    padding: 5px 15px;/*tamaño del fondo*/
+    border: 2px solid #690202;/*bordes*/
+    color: #fff;
+    text-decoration: none;/*cansela los estilos base*/
+    background: #690202;/*color del fondo*/
+    border-radius: 9px;/*bordes*/
+    opacity: 0.85;/*transparencia*/
+    font-family: aBodoni-MT;
+}
+
+.box-container a:hover {
+    background: none;
+}
+
+/*MODELO DE la ZAPATILLA 2. "box"*/
+ 
+
+.box-container .box1{
+    background: url(../img/Grant\ Hill\ 1.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box1:hover {
+    background: url(../img/Grant\ Hill\ 1.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 2. "box"*/
+
+.box-container .box2{
+    background: url(../img/disrruptor.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box2:hover {
+    background: url(../img/disrruptor.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 3. "box"*/
+
+.box-container .box3{
+    background: url(../img/Charleston.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box3:hover {
+    background: url(../img/Charleston.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 4. "box"*/
+
+.box-container .box4{
+    background: url(../img/Electrove\ 2\ Multicolor.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box4:hover {
+    background: url(../img/Electrove\ 2\ Multicolor.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 5. "box"*/
+
+.box-container .box5{
+    background: url(../img/LNX-100\ Blanco.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box5:hover {
+    background: url(../img/LNX-100\ Blanco.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 6. "box"*/
+
+.box-container .box6{
+    background: url(../img/Oakmont.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box6:hover {
+    background: url(../img/Oakmont.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 7. "box"*/
+
+.box-container .box7{
+    background: url(../img/RAY\ TRACER\ EVO.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box7:hover {
+    background: url(../img/RAY\ TRACER\ EVO.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 8. "box"*/
+
+.box-container .box8{
+    background: url(../img/Renno.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box8:hover {
+    background: url(../img/Renno.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 9. "box"*/
+
+.box-container .box9{
+    background: url(../img/Urbana\ Fast\ Charge.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box9:hover {
+    background: url(../img/Urbana\ Fast\ Charge.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 10. "box"*/
+
+.box-container .box10{
+    background: url(../img/Basic\ Letter.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box10:hover {
+    background: url(../img/Basic\ Letter.jpg) no-repeat center;
+ 
+}
+
+/*MODELO DE LA ZAPATILLA 11. "box"*/
+
+.box-container .box11{
+    background: url(../img/Pantalón\ Comfort.jpg) no-repeat center; /*iamgen centrada*/
+    background-size: cover; /*una destancia normal de la iamgen*/
+    height: 8rem;
+    width: 14rem;
+    border-radius: 1rem;
+    box-shadow: 0 .3rem 5rem rgba(0, 0 , 0, 5);
+    margin: 2rem;
+}
+
+.box-container .box11:hover {
+    background: url(../img/Pantalón\ Comfort.jpg) no-repeat center;
+ 
+}
+
+
+
+
+
+
